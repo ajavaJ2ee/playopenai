@@ -1,0 +1,14 @@
+{
+    "profile":[
+        {
+        "name": "Abhinai",
+        "age": "32",
+        "occupation": "software engineer"
+        },
+        {
+        "name": "Abhinai2",
+        "age": "322",
+        "occupation": "software engineer2"
+        }
+    ]
+}

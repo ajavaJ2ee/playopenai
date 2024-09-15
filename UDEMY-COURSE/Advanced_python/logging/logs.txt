@@ -1,0 +1,3 @@
+2022-12-10 10:10:13,389 DEBUG   :[app.py:8] Say Hi from DEBUG
+2022-12-10 10:10:13,389 INFO    :[app.py:10] Say Hi from Info
+2022-12-10 10:10:13,389 WARNING :[app.py:12] Say Hi from Warning
