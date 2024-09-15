@@ -8,7 +8,7 @@ def encode_image(image_path):
     with open(image_path,"rb") as file_path:
         return base64.b64encode(file_path.read()).decode('utf-8')
 
-image_path = "/Users/abhidesktop/Documents/Python/SampleProjects/openai/IMG_6729.JPG"
+image_path = "/openai/sampleAPIcalls/IMG_6729.JPG"
 image_file=encode_image(image_path)
 
 
