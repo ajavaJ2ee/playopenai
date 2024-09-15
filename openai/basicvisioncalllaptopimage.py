@@ -1,7 +1,7 @@
 import base64
 import requests
 
-api_key="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"
+api_key=""
 
 def encode_image(image_path):
     with open(image_path,"rb") as image_file:
