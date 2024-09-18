@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client= ""
+client=""
 
 
 
@@ -19,14 +19,20 @@ more detailed and relevant outputs.
 prompt = f"""
 Summarize the text delimited by triple backticks \ 
 into a single sentence.
-```{text}```
+```{text}```"""
+
+prompt2=f"""
+Generate a list of three made-up book titles along \ 
+with their authors and genres. 
+Provide them in JSON format with the following keys: 
+book_id, title, author, genre.
 """
 
 response= client.chat.completions.create(
     model="gpt-3.5-turbo",
     messages=[{
         "role":"user",
-        "content":prompt
+        "content":prompt2
     }],
     temperature=0
 )
